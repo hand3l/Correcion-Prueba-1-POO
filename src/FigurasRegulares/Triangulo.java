@@ -22,12 +22,12 @@ public class Triangulo {
         this.lado1 = lado;
     }
 
-    // Método para calcular el área (triángulo rectángulo)
+    // Metodo para calcular el área (triángulo rectángulo)
     public double Area() {
         return (lado1 * lado1) / 2; // Área = (base * altura) / 2
     }
 
-    // Método para calcular el perímetro
+    // Metodo para calcular el perímetro
     public double Perimetro() {
         return lado1 * 3; // Asumiendo que todos los lados son iguales en un triángulo equilátero
     }

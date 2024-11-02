@@ -22,17 +22,17 @@ public class Circulo{
         this.radio = radio;
     }
 
-    // Método para calcular el área
+    // Metodo para calcular el área
     public double Area() {
         return Math.PI * Math.pow(radio, 2); // Corrección aquí
     }
 
-    // Método para calcular el perímetro
+    // Metodo para calcular el perímetro
     public double Perimetro() {
         return 2 * Math.PI * radio; // Corrección aquí
     }
 
-    // Método para imprimir información
+    // Metodo para imprimir información
     public void Imprimir() {
         System.out.println("Círculo - Radio: " + radio);
         System.out.println("Área: " + Area());
